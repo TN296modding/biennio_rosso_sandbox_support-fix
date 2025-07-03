@@ -10,10 +10,19 @@ go-to: start_menu_2
 
 @start_menu_2
 
+- @redirect: IF YOU DON'T SEE THE SANDBOX TAB BESIDE LIBRARY AND OPTIONS, CLICK HERE
 - @start: Start game
 - @mod_info: Mod Info & Settings
 - @credits: Credits
 - @achievements: Achievements
+
+
+@redirect
+subtitle: The sandbox menu does not load from the mod menu, click to be redirected to the correct page.
+on-arrival: {!
+window.top.location.replace("https://biennio.sylvurr.com");
+window.enableDarkMode();
+!}
 
 @achievements
 go-to: game_over.achievements

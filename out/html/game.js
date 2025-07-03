@@ -14,6 +14,7 @@
     game = ui.game;
 
     // Add your custom code here.
+    window.enableDarkMode();
   };
 
   var TITLE = "Social Democracy: An Alternate History" + '_' + "Autumn Chen";
@@ -31,6 +32,14 @@
     } else {
         window.dendryUI.dendryEngine.goToScene('library');
     }
+  };
+
+  window.showSandbox = function() {
+      if (window.dendryUI.dendryEngine.state.sceneId.startsWith('sandbox')) {
+          window.dendryUI.dendryEngine.goToScene('backSpecialScene');
+      } else {
+          window.dendryUI.dendryEngine.goToScene('sandbox');
+      }
   };
 
   window.showMods = function() {
