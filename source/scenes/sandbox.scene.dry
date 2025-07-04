@@ -1152,7 +1152,7 @@ go-to: editpartysupport
 @spd_worker_up
 go-to: spd_support
 on-arrival: {!
-Q.workers_spd += 20;
+Q.workers_psi += 20;
 !}
 
 Raised worker support for SPD.
@@ -1160,7 +1160,7 @@ Raised worker support for SPD.
 @spd_worker_down
 go-to: spd_support
 on-arrival: {!
-Q.workers_spd -= 20;
+Q.workers_psi -= 20;
 !}
 
 Lowered worker support for SPD.
@@ -1168,7 +1168,7 @@ Lowered worker support for SPD.
 @spd_old_middle_up
 go-to: spd_support
 on-arrival: {!
-Q.old_middle_spd += 20;
+Q.middle_class_psi += 20;
 !}
 
 Raised Old Middle Class support for SPD.
@@ -1176,7 +1176,7 @@ Raised Old Middle Class support for SPD.
 @spd_old_middle_down
 go-to: spd_support
 on-arrival: {!
-Q.old_middle_spd -= 20;
+Q.middle_class_psi -= 20;
 !}
 
 Lowered Old Middle Class support for SPD.
@@ -1184,7 +1184,7 @@ Lowered Old Middle Class support for SPD.
 @spd_new_middle_up
 go-to: spd_support
 on-arrival: {!
-Q.new_middle_spd += 20;
+Q.industrialists_psi += 20;
 !}
 
 Raised New Middle Class support for SPD.
@@ -1192,7 +1192,7 @@ Raised New Middle Class support for SPD.
 @spd_new_middle_down
 go-to: spd_support
 on-arrival: {!
-Q.new_middle_spd -= 20;
+Q.industrialists_psi -= 20;
 !}
 
 Lowered New Middle Class support for SPD.
@@ -1200,7 +1200,7 @@ Lowered New Middle Class support for SPD.
 @spd_rural_up
 go-to: spd_support
 on-arrival: {!
-Q.rural_spd += 20;
+Q.rural_psi += 20;
 !}
 
 Raised Rural support for SPD.
@@ -1208,7 +1208,7 @@ Raised Rural support for SPD.
 @spd_rural_down
 go-to: spd_support
 on-arrival: {!
-Q.rural_spd -= 20;
+Q.rural_psi -= 20;
 !}
 
 Lowered Rural support for SPD.
@@ -1216,7 +1216,7 @@ Lowered Rural support for SPD.
 @spd_unemployed_up
 go-to: spd_support
 on-arrival: {!
-Q.unemployed_spd += 20;
+Q.veterans_psi += 20;
 !}
 
 Raised Unemployed support for SPD.
@@ -1224,7 +1224,7 @@ Raised Unemployed support for SPD.
 @spd_unemployed_down
 go-to: spd_support
 on-arrival: {!
-Q.unemployed_spd -= 20;
+Q.veterans_psi -= 20;
 !}
 
 Lowered Unemployed support for SPD.
@@ -1232,7 +1232,7 @@ Lowered Unemployed support for SPD.
 @spd_catholics_up
 go-to: spd_support
 on-arrival: {!
-Q.catholics_spd += 20;
+Q.catholics_psi += 20;
 !}
 
 Raised Catholics support for SPD.
@@ -1240,7 +1240,7 @@ Raised Catholics support for SPD.
 @spd_catholics_down
 go-to: spd_support
 on-arrival: {!
-Q.catholics_spd -= 20;
+Q.catholics_psi -= 20;
 !}
 
 Lowered Catholics support for SPD.
